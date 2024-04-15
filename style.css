@@ -1,0 +1,145 @@
+.menu{
+	background-color: #303841;
+	width: 97.2%;
+	border-radius: 10px;
+	padding: 19px;
+	height: 30px;
+}
+.menu li{
+	color: white;
+	display: inline;
+	justify-content: space-between;
+	list-style: none;
+	line-height: 60%;
+	padding: 18px;
+	margin-right: 80px;
+	font-family: Tahoma;
+	cursor: pointer;
+
+}
+.menu ul{
+	float: right;
+}
+body{
+	background-image: url(ret.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+p{
+	color: white;
+	font-size: 70px;
+}
+h5{
+	color:#be3144;
+	margin-top: -20px;
+	font-size: 30px;
+}
+.ot{
+	color: white;
+	background-color: #45567d;
+}
+.ot hr{
+	width: 50%;
+	color: white;
+}
+.pj img{
+	width: 100%;
+}
+.pj1{
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6),0 6px 20px 0 rgba(0, 0, 0, 0.20);
+	text-align: center;
+	height: 50vh;
+	transition: transform 1.5s;
+	cursor: pointer;
+}
+.no{
+	padding: 27px;
+	font-size: 20px;
+	background-color: #303841;
+	margin-top: -0.5%
+}
+.pj{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 45px;
+	column-gap: 25px;
+	padding: 12px;
+}
+.pj1:hover{
+	transform: translate(2%, 5%);
+}
+button{
+background-image: linear-gradient(to top,#005c99,#00004d);
+color: white;
+width: 85px;
+border-radius: 3px;
+border:bold;
+height: 35px;
+}
+.ear hr{
+	width: 20%;
+	color: white;
+}
+.ear h2{
+	color: white;
+	font-family:tahoma;
+}
+.titi h2{
+	font-size: 20px;
+}
+.fir h2{
+	font-size: 20px;
+	color: white;
+	margin-left: 20px;
+}
+.fir p{
+	font-size: 14px;
+	color: white;
+	margin-left: 20px;
+}
+
+.titi p{
+	font-size: 14px;
+	color: black;
+}
+.riz{
+	display: flex;
+	background-color: white;
+	width: 700px;
+	border-radius: 10px;
+	height: 400px;
+	margin-left: 388px;
+	transition:transform 3s, 1;
+	cursor: pointer;
+
+}
+.fir{
+	width: 60%;
+	background-image: linear-gradient(to top,#005c99,#00004d);
+	clip-path: polygon(0 0, 0% 100%, 100% 0);
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+.fir a{
+	margin-left: 20px;
+}
+
+.riz:hover{
+	transform: rotate(360deg);
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
